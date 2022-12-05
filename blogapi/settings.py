@@ -31,7 +31,7 @@ for key, value in secrets.items():
 #해당 부분을 수정하였습니다.
 DEBUG = (os.environ.get('DEBUG', 'True') != 'False')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*'] #모든 호스트 허용
 
 
 # Application definition
